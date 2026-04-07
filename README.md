@@ -41,7 +41,6 @@ aws-ecs-fargate-infra/
 │   ├── 06-alb.sh              # Internal ALB, target group (type=ip), listener port 80
 │   ├── 07-ecs.sh              # ECS cluster (Container Insights on), service (desired=2)
 │   └── 08-api-gateway.sh      # VPC Link, REST API, /api/{proxy+} → ALB
-├── task-definition.json       # ECS task definition template (256 CPU / 512 MB)
 └── README.md
 ```
 
@@ -77,4 +76,4 @@ https://<API_ID>.execute-api.<REGION>.amazonaws.com/prod/api/v1/hello
 
 ## Application Repo
 
-App code, Dockerfile, CI/CD pipeline → [`fargate-express-blueprint`](https://github.com/Divyap8/fargate-express-blueprint.git)
+App code, Dockerfile, CI/CD pipeline → [`fargate-express-blueprint`](https://github.com/your-org/fargate-express-blueprint)
