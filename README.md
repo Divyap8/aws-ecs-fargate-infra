@@ -76,4 +76,4 @@ https://<API_ID>.execute-api.<REGION>.amazonaws.com/prod/api/v1/hello
 
 ## Application Repo
 
-App code, Dockerfile, CI/CD pipeline → [`fargate-express-blueprint`](https://github.com/your-org/fargate-express-blueprint)
+App code, Dockerfile, CI/CD pipeline → [`fargate-express-blueprint`](https://github.com/Divyap8/fargate-express-blueprint.git)
