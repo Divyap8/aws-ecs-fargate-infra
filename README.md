@@ -2,6 +2,8 @@
 
 AWS CLI scripts to provision the full infrastructure for running a containerised Node.js API on ECS Fargate. Run steps in order — each script exports variables consumed by the next.
 
+<img width="980" height="618" alt="image" src="https://github.com/user-attachments/assets/f1b25303-e50b-457a-b100-20ee7f7feae4" />
+
 ## Architecture
 
 ```
